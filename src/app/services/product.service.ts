@@ -9,7 +9,8 @@ import { ListResponseModel } from '../models/listResponseModel';
 })
 export class ProductService {
 
-  apiUrl="https://localhost:44301/api";
+  apiUrl="https://localhost:44301/api/";
+  //"https://localhost:44301/api/products/getbycategory?categoryId=1"
 
   constructor(private httpClient:HttpClient) { }
 
